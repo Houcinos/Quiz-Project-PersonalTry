@@ -1,4 +1,3 @@
-> this is one possible development strategy, maybe your group has a different idea!
 
 # JavaScript Quiz
 
@@ -24,7 +23,7 @@ This is a simple website in which users can check their JS knowledge by taking a
 
 ## WIREFRAME
 
-![wireframe]()
+![wireframe](https://github.com/AnisyaPurnama/Quiz-Project-Group4/blob/master/planning/wireframe%20quiz.png?raw=true)
 
 ---
 
