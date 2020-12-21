@@ -17,7 +17,7 @@ This is a simple website in which users can check their JS knowledge by taking a
 
 ## User Story Dependencies
 
-![Story Dependency Diagram]()
+![Story Dependency Diagram](https://github.com/AnisyaPurnama/Quiz-Project-Group4/blob/master/planning/user%20diagram.png?raw=true)
 
 ---
 
