@@ -1,0 +1,57 @@
+1. Which of the following is not JavaScript Data Types?
+A. Undefined
+B. Number
+C. Boolean
+D. Float
+
+2. Inside which HTML element do we put the JavaScript?
+A. <script>
+B. <head>
+C. <meta>
+D. <style>
+
+3. Which of the following is the correct syntax to display "Letsfindcourse" in an alert box using JavaScript?
+A. alert-box("Letsfindcourse");
+B. confirm("Letsfindcourse");
+C. msgbox("Letsfindcourse");
+D. alert("Letsfindcourse");
+
+4. What will be the output of the following Javascript code?
+    var string1 = "Letsfindcourse";
+    var intvalue = 30;
+    alert( string1 + intvalue );
+A. Letsfindcourse 30
+B. 30
+C. Letsfindcourse30
+D. Exception
+
+5. Among the following, which one is a ternary operator in JavaScript?
+A. #
+B. ::
+C. &:
+D. ?:
+
+6. Which of them is not the looping structures in JavaScript?
+A. for
+B. while
+C. forwhich
+D. dowhile
+
+7. What are the types of Pop up boxes available in JavaScript?
+A. Alert
+B. Prompt
+C. Confirm
+D. All of the above
+
+8. Javascript string using double quotes is exactly the same as a string using single quotes?
+A. True
+B. False
+
+9. Find output of below code
+var a = '20';
+var b = a = 30;
+document.write(a+b);
+A. Error in Script
+B. '20'30
+C. 2030
+D. 50
