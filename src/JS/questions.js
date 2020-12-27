@@ -2,17 +2,17 @@
 // Array of Objects
 const quiz = [
     {
-        q :'Which of the following is not JavaScript Data Types?',
+        q:'Which of the following is not JavaScript Data Types?',
         options:['Undefined','Number','Boolean','Float'],
         answer:3
     },
     {
-        q :'Inside which HTML element do we put the JavaScript?',
+        q:'Inside which HTML element do we put the JavaScript?',
         options:['<script>','<head>','<meta>','<style>'],
         answer:0
     },
     {
-        q :'Which of the following is the correct syntax to display "Letsfindcourse" in an alert box using JavaScript?',
+        q:'Which of the following is the correct syntax to display "Letsfindcourse" in an alert box using JavaScript?',
         options:['alert-box("Letsfindcourse");','confirm("Letsfindcourse");','msgbox("Letsfindcourse");','alert("Letsfindcourse")'],
         answer:3
     },

@@ -19,7 +19,7 @@ let attempt = 0;
 function setAvailableQuestions(){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
-        AvailableQuestions.push(quiz[i])
+        availableQuestions.push(quiz[i])
     }
 }
 // set question number and question and options
@@ -33,7 +33,7 @@ const questionIndex = availableQuestions[Math.floor(Math.random() * availableQue
 currentQuestion = questionIndex;
 questionText.innerHTML = currentQuestion.q;
 //get the position of 'questionIndex' from the availableQuestion Array
-const index1 = availableQuestion.indexOf(questionIndex);
+const index1 = availableQuestions.indexOf(questionIndex);
 // Remove the 'questionIndex' from the availableQuestion Array, so that the question does not repeat
 availableQuestions.splice(index1,1);
 // console.log(questionIndex)
@@ -49,7 +49,7 @@ for(let i=0; i<optionLen; i++){
 optionContainer.innerHTML = '';
 let animationDelay = 0.15;
 // create options in html 
-for(let i=0; i<optionLen; i++)
+for(let i=0; i<optionLen; i++){
 // Rdandom option
     const optonIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)]
     // Get the position of 'optonIndex' from the availableOptions Array
@@ -69,6 +69,7 @@ for(let i=0; i<optionLen; i++)
     option.setAttribute("onclick","getResult(this)")
 // console.log(availableOptions)
 questionCounter++
+}
 }
 
 // get the result of current attempt question
@@ -110,7 +111,7 @@ function unclickableOptions(){
 }
 
 function answerIndicator(){
-    answersIndicatorContainer.innerHTML = '';
+    answerIndicatorContainer.innerHTML = '';
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
         const indicator = document.createElement("div");
@@ -118,7 +119,8 @@ function answerIndicator(){
     }
 }
 function updateAnswerIndicator(markType){
-    answerIndicatorContainer.children[questionCounter-1].classList.add(markType)
+    console.log(answerIndicatorContainer);
+    answerIndicatorContainer.children[questionCounter-1].classList.add(markType);
 
 }
 
@@ -183,7 +185,7 @@ function startQuiz(){
     // show quiz Box
     quizBox.classList.remove("hide");
 // first we will set all questions in availableQuestions Array
-    setAvailaleQuestions();
+    setAvailableQuestions();
     // second we will call getNewQuestion(); function
     getNewQuestion();
 // to create indicator of answers
