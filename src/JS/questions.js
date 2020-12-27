@@ -8,7 +8,7 @@ const quiz = [
     },
     {
         q:'Inside which HTML element do we put the JavaScript?',
-        options:['<script>','<head>','<meta>','<style>'],
+        options:['script','head','meta','style'],
         answer:0
     },
     {
